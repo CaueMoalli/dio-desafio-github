@@ -3,22 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <title>Cauê Moalli</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <img src="img/portrait.jpg" alt="spaceman portrait" />
-      <h1>Cauê Moalli</h1>
+      <img src="img/portrait.jpg" alt="spaceman portrait" class="portrait" />
+      <h1 id="title">Cauê Moalli</h1>
     </header>
     <section>
       <header>
-        <h2>Posts</h2>
+        <h2 class="subtitle">Posts</h2>
       </header>
-      <article>
+      <article class="post">
         <header>
-          <h3>Post #1</h3>
-          <img src="img/htmlimg.jpg" alt="editor de código contendo html"
+          <h3 class="post-title">Post #1</h3>
+          <img
+            src="img/htmlimg.jpg"
+            alt="editor de código contendo html"
+            class="post-image"
+          />
         </header>
-        <p>
+        <p class="post-content">
           Lorem ipsum dolor sit amet,
           <a href="https://www.linkedin.com/in/cauemoalli/" target="_blank"
             >consectetur adipiscing</a
@@ -42,7 +47,7 @@
       </article>
     </section>
     <footer>
-      <ul>
+      <ul class="contact-list">
         <li>
           <a href="mailto:cmoallidev@gmail.com">cmoallidev@gmail.com</a>
         </li>
